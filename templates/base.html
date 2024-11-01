@@ -1,0 +1,16 @@
+{% load static %}
+{% load django_vite %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token }}">
+    <title>Todo App</title>
+    {% vite_hmr_client %}
+    {% vite_asset 'js/app.jsx' %}
+<body>
+{% block inertia %}{% endblock %}
+</body>
+</html>

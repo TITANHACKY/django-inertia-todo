@@ -1,0 +1,17 @@
+ul.parsley-errors-list {
+    padding-top: 5px !important;
+    margin-bottom: 0 !important;
+}
+
+.parsley-errors-list {
+    font-size: 14px !important
+}
+
+.parsley-errors-list {
+    padding: 0 !important
+}
+
+.parsley-errors-list li {
+    list-style: none;
+    color: #f8285a
+}
