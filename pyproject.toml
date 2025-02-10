@@ -1,0 +1,19 @@
+[project]
+name = "django-inertia-todo"
+version = "0.1.0"
+description = "Django + React JS"
+authors = [
+    {name = "poonkawin8484@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (>=5.1.6,<6.0.0)",
+    "django-vite (>=3.0.6,<4.0.0)",
+    "django-ajax-datatable (>=4.5.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
